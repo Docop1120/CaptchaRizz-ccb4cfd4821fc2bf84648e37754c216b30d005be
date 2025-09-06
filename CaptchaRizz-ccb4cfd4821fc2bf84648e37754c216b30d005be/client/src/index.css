@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  /* CaptchaRizz Brand Colors */
+  --background: hsl(240, 30%, 6%);
+  --foreground: hsl(240, 12%, 96%);
+  --card: hsl(240, 15%, 8%);
+  --card-foreground: hsl(240, 12%, 92%);
+  --popover: hsl(240, 15%, 8%);
+  --popover-foreground: hsl(240, 12%, 92%);
+  --primary: hsl(258, 90%, 66%);
+  --primary-foreground: hsl(240, 12%, 96%);
+  --secondary: hsl(240, 15%, 12%);
+  --secondary-foreground: hsl(240, 12%, 88%);
+  --muted: hsl(240, 15%, 10%);
+  --muted-foreground: hsl(240, 12%, 70%);
+  --accent: hsl(200, 90%, 66%);
+  --accent-foreground: hsl(240, 12%, 96%);
+  --destructive: hsl(0, 84%, 60%);
+  --destructive-foreground: hsl(0, 0%, 98%);
+  --border: hsl(240, 15%, 15%);
+  --input: hsl(240, 15%, 15%);
+  --ring: hsl(258, 90%, 66%);
+  
+  /* Brand specific colors */
+  --ink: hsl(240, 67%, 11%);
+  --electric-indigo: hsl(258, 100%, 53%);
+  --vivid-violet: hsl(270, 100%, 59%);
+  --plasma-blue: hsl(200, 100%, 58%);
+  --soft-lilac: hsl(258, 100%, 87%);
+  --snow: hsl(240, 100%, 98%);
+  
+  --chart-1: hsl(203.8863, 88.2845%, 53.1373%);
+  --chart-2: hsl(159.7826, 100%, 36.0784%);
+  --chart-3: hsl(42.0290, 92.8251%, 56.2745%);
+  --chart-4: hsl(147.1429, 78.5047%, 41.9608%);
+  --chart-5: hsl(341.4894, 75.2000%, 50.9804%);
+  --sidebar: hsl(240, 15%, 8%);
+  --sidebar-foreground: hsl(240, 12%, 92%);
+  --sidebar-primary: hsl(258, 90%, 66%);
+  --sidebar-primary-foreground: hsl(240, 12%, 96%);
+  --sidebar-accent: hsl(240, 15%, 12%);
+  --sidebar-accent-foreground: hsl(240, 12%, 88%);
+  --sidebar-border: hsl(240, 15%, 15%);
+  --sidebar-ring: hsl(258, 90%, 66%);
+  
+  --font-sans: 'Inter', system-ui, sans-serif;
+  --font-serif: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
+  --font-mono: ui-monospace, SFMono-Regular, "SF Mono", Consolas, "Liberation Mono", Menlo, monospace;
+  --font-display: 'Sora', 'Space Grotesk', system-ui, sans-serif;
+  
+  --radius: 1rem;
+  --shadow-2xs: 0px 2px 0px 0px hsl(202.8169, 89.1213%, 53.1373%, 0.00);
+  --shadow-xs: 0px 2px 0px 0px hsl(202.8169, 89.1213%, 53.1373%, 0.00);
+  --shadow-sm: 0px 2px 0px 0px hsl(202.8169, 89.1213%, 53.1373%, 0.00), 0px 1px 2px -1px hsl(202.8169, 89.1213%, 53.1373%, 0.00);
+  --shadow: 0px 2px 0px 0px hsl(202.8169, 89.1213%, 53.1373%, 0.00), 0px 1px 2px -1px hsl(202.8169, 89.1213%, 53.1373%, 0.00);
+  --shadow-md: 0px 2px 0px 0px hsl(202.8169, 89.1213%, 53.1373%, 0.00), 0px 2px 4px -1px hsl(202.8169, 89.1213%, 53.1373%, 0.00);
+  --shadow-lg: 0px 2px 0px 0px hsl(202.8169, 89.1213%, 53.1373%, 0.00), 0px 4px 6px -1px hsl(202.8169, 89.1213%, 53.1373%, 0.00);
+  --shadow-xl: 0px 2px 0px 0px hsl(202.8169, 89.1213%, 53.1373%, 0.00), 0px 8px 10px -1px hsl(202.8169, 89.1213%, 53.1373%, 0.00);
+  --shadow-2xl: 0px 2px 0px 0px hsl(202.8169, 89.1213%, 53.1373%, 0.00);
+  --tracking-normal: 0em;
+  --spacing: 0.25rem;
+}
+
+.dark {
+  --background: hsl(240, 30%, 6%);
+  --foreground: hsl(240, 12%, 96%);
+  --card: hsl(240, 15%, 8%);
+  --card-foreground: hsl(240, 12%, 92%);
+  --popover: hsl(240, 15%, 8%);
+  --popover-foreground: hsl(240, 12%, 92%);
+  --primary: hsl(258, 90%, 66%);
+  --primary-foreground: hsl(240, 12%, 96%);
+  --secondary: hsl(240, 15%, 12%);
+  --secondary-foreground: hsl(240, 12%, 88%);
+  --muted: hsl(240, 15%, 10%);
+  --muted-foreground: hsl(240, 12%, 70%);
+  --accent: hsl(200, 90%, 66%);
+  --accent-foreground: hsl(240, 12%, 96%);
+  --destructive: hsl(0, 84%, 60%);
+  --destructive-foreground: hsl(0, 0%, 98%);
+  --border: hsl(240, 15%, 15%);
+  --input: hsl(240, 15%, 15%);
+  --ring: hsl(258, 90%, 66%);
+  --chart-1: hsl(203.8863, 88.2845%, 53.1373%);
+  --chart-2: hsl(159.7826, 100%, 36.0784%);
+  --chart-3: hsl(42.0290, 92.8251%, 56.2745%);
+  --chart-4: hsl(147.1429, 78.5047%, 41.9608%);
+  --chart-5: hsl(341.4894, 75.2000%, 50.9804%);
+  --sidebar: hsl(240, 15%, 8%);
+  --sidebar-foreground: hsl(240, 12%, 92%);
+  --sidebar-primary: hsl(258, 90%, 66%);
+  --sidebar-primary-foreground: hsl(240, 12%, 96%);
+  --sidebar-accent: hsl(240, 15%, 12%);
+  --sidebar-accent-foreground: hsl(240, 12%, 88%);
+  --sidebar-border: hsl(240, 15%, 15%);
+  --sidebar-ring: hsl(258, 90%, 66%);
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  html {
+    /* Ensure proper scrolling on mobile */
+    -webkit-overflow-scrolling: touch;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply font-sans antialiased bg-background text-foreground;
+    background: linear-gradient(135deg, #0B0B2E 0%, #1a1a3a 50%, #0B0B2E 100%);
+    min-height: 100vh;
+    overflow-x: hidden;
+    /* Prevent horizontal scroll issues on mobile */
+    width: 100%;
+    position: relative;
+  }
+
+  #root {
+    overflow-x: hidden;
+    width: 100%;
+  }
+}
+
+@layer components {
+  .glass-card {
+    @apply backdrop-blur-xl bg-white/[0.02] border border-white/[0.05];
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.15);
+  }
+
+  .gradient-text-captcha {
+    background: linear-gradient(135deg, #4B0FFF 0%, #7A2CFF 45%, #2AB3FF 70%, #4B0FFF 100%);
+    background-size: 300% 100%;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: gradient 6s linear infinite;
+  }
+
+  .gradient-border {
+    background: linear-gradient(135deg, #4B0FFF 0%, #7A2CFF 45%, #2AB3FF 70%, #4B0FFF 100%);
+    background-size: 300% 100%;
+    animation: gradient 8s linear infinite;
+  }
+
+  .tubelight-glow {
+    box-shadow: 
+      0 0 10px rgba(75, 15, 255, 0.3),
+      0 0 20px rgba(75, 15, 255, 0.2),
+      0 0 30px rgba(75, 15, 255, 0.1);
+  }
+
+  .display-font {
+    font-family: var(--font-display);
+    letter-spacing: -0.02em;
+  }
+}

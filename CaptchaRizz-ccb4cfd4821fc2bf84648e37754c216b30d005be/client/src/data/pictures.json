@@ -1,0 +1,122 @@
+[
+  {
+    "pictureId": "P001",
+    "name": "Tralalero Tralala",
+    "isBrainRot": true,
+    "image": "https://static.wikitide.net/italianbrainrotwiki/thumb/e/e0/Tralalelo_tralala.png/405px-Tralalelo_tralala.png"
+  },
+  {
+    "pictureId": "P002",
+    "name": "Tung Tung Tung Sahur",
+    "isBrainRot": true,
+    "image": "https://static.wikitide.net/italianbrainrotwiki/f/fa/Tung_tung_tung_sahur.png"
+  },
+  {
+    "pictureId": "P003",
+    "name": "Bombardiro Crocodilo",
+    "isBrainRot": true,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Bombardiro_Crocodillo.jpg/405px-Bombardiro_Crocodillo.jpg"
+  },
+  {
+    "pictureId": "P004",
+    "name": "Ballerina Cappuccina",
+    "isBrainRot": true,
+    "image": "https://static.wikitide.net/italianbrainrotwiki/9/9a/Ballerina_cappucappu.png"
+  },
+  {
+    "pictureId": "P005",
+    "name": "Chimpanzini Bananini",
+    "isBrainRot": true,
+    "image": "https://static.wikitide.net/italianbrainrotwiki/thumb/5/50/Chimpanzini_Bananino.png/600px-Chimpanzini_Bananino.png"
+  },
+  {
+    "pictureId": "P006",
+    "name": "Cappuccino Assassino",
+    "isBrainRot": true,
+    "image": "https://static.wikitide.net/italianbrainrotwiki/2/29/Cappuccino_assassino.png"
+  },
+  {
+    "pictureId": "P007",
+    "name": "Lirili Larila",
+    "isBrainRot": true,
+    "image": "https://static.wikitide.net/italianbrainrotwiki/5/52/Lirili_Larila.jpeg"
+  },
+  {
+    "pictureId": "P008",
+    "name": "Trippi Troppi",
+    "isBrainRot": true,
+    "image": "https://static.wikitide.net/italianbrainrotwiki/thumb/9/9e/Trippi_Troppi.webp/599px-Trippi_Troppi.webp.png"
+  },
+  {
+    "pictureId": "P009",
+    "name": "La Vaca Saturno Saturnita",
+    "isBrainRot": true,
+    "image": "https://static.wikitide.net/italianbrainrotwiki/6/62/Saturno_Saturnita.png"
+  },
+  {
+    "pictureId": "P010",
+    "name": "Boneca Ambalabu",
+    "isBrainRot": true,
+    "image": "https://static.wikitide.net/italianbrainrotwiki/thumb/3/3e/Boneka-Ambalabu.png/599px-Boneka-Ambalabu.png"
+  },
+  {
+    "pictureId": "P011",
+    "name": "Pipi Potato",
+    "isBrainRot": false,
+    "image": "https://static.wikitide.net/italianbrainrotwiki/b/b7/Pi_pi_potato.jpeg"
+  },
+  {
+    "pictureId": "P012",
+    "name": "Cakini apestosini",
+    "isBrainRot": false,
+    "image": "https://static.wikitide.net/italianbrainrotwiki/thumb/2/27/Cakini_apestosini.png/600px-Cakini_apestosini.png"
+  },
+  {
+    "pictureId": "P013",
+    "name": "Salamino pinguino",
+    "isBrainRot": false,
+    "image": "https://static.wikitide.net/italianbrainrotwiki/2/2c/Salami_penguin.jpg"
+  },
+  {
+    "pictureId": "P014",
+    "name": "Sharkino Cappucino",
+    "isBrainRot": false,
+    "image": "https://static.wikitide.net/italianbrainrotwiki/thumb/d/db/Sharkino_Cappucino.png/405px-Sharkino_Cappucino.png"
+  },
+  {
+    "pictureId": "P015",
+    "name": "Wolfinita Porkinita",
+    "isBrainRot": false,
+    "image": "https://static.wikitide.net/italianbrainrotwiki/thumb/3/3b/Porky.jpg/405px-Porky.jpg"
+  },
+  {
+    "pictureId": "P016",
+    "name": "Zuccopótamo",
+    "isBrainRot": false,
+    "image": "https://static.wikitide.net/italianbrainrotwiki/thumb/3/3d/Zuccop%C3%B3tamo.png/450px-Zuccop%C3%B3tamo.png"
+  },
+  {
+    "pictureId": "P017",
+    "name": "Hotto Doggo Elephantti",
+    "isBrainRot": false,
+    "image": "https://static.wikitide.net/italianbrainrotwiki/thumb/7/7c/HottoDoggoElephantti.jpg/405px-HottoDoggoElephantti.jpg"
+  },
+  {
+    "pictureId": "P018",
+    "name": "Gorillo Noodledrillo",
+    "isBrainRot": false,
+    "image": "https://static.wikitide.net/italianbrainrotwiki/thumb/3/39/Gorillo_Noodledrillo.jpg/405px-Gorillo_Noodledrillo.jpg"
+  },
+  {
+    "pictureId": "P019",
+    "name": "Fishini pelminini",
+    "isBrainRot": false,
+    "image": "https://static.wikitide.net/italianbrainrotwiki/thumb/2/2d/Fishini_pelminini.png/600px-Fishini_pelminini.png"
+  },
+  {
+    "pictureId": "P020",
+    "name": "Conversino Barbiglio",
+    "isBrainRot": false,
+    "image": "https://static.wikitide.net/italianbrainrotwiki/thumb/b/b0/Conversino_Barbiglio.png/450px-Conversino_Barbiglio.png"
+  }
+]
